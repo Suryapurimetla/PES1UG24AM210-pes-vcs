@@ -10,6 +10,8 @@
 
 // tree <64-char-hex-hash>
 
+// authhor <name> <unix-timestamp>
+
 //   <commit message>
 
 git add object.c
