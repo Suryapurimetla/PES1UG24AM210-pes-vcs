@@ -7,9 +7,13 @@
 //   parent <64-char-hex-hash>        ← omitted for the first commit
 //   author <name> <unix-timestamp>
 //   committer <name> <unix-timestamp>
-//
+
+// tree <64-char-hex-hash>
+
 //   <commit message>
-//
+
+git add object.c
+git commit -m "Phase 1: implemented object_write"
 // Note: there is a blank line between the headers and the message.
 //
 // PROVIDED functions: commit_parse, commit_serialize, commit_walk, head_read, head_update
